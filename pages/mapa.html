@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas do Jogo - Mapas</title>
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../css/mapa.css"> 
+</head>
+<body>
+
+    <header class="cabecalho">
+        <a href="../index.html" class="back-button">← Voltar</a>
+        <h1>MAPAS</h1>
+        <button id="theme-toggle" class="theme-toggle">🌙</button> 
+        <div class="menu-icone">
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </div>
+    </header>
+
+    <nav class="side-menu">
+        </nav>
+    
+    <main class="map-container">
+        
+        <div class="map-display">
+            <h2>Mapa Principal do Reino</h2>
+            <img src="../imagens/mapa-principal.jpg" alt="Mapa detalhado do reino" class="main-map-image">
+        </div>
+        
+        <section class="region-list">
+            <h2>Anotações de Regiões Importantes</h2>
+            
+            <div class="region-entry" data-theme="dark">
+                <h3 class="region-name">Montanhas Gélidas (Norte)</h3>
+                <div class="accordion">
+                    <button class="accordion-header">Detalhes, Inimigos e Recompensas</button>
+                    <div class="accordion-content">
+                        <h4>Inimigos Notáveis:</h4>
+                        <p>Lobos da Neve (Comum), Gigantes de Gelo (Raro).</p>
+                        <h4>Recursos Úteis:</h4>
+                        <p>Minério de Cristal (Alta concentração), Ervas de Resistência ao Gelo.</p>
+                        <img src="../imagens/montanhas-gelidas-detalhe.jpg" alt="Detalhe da entrada da caverna" class="detail-image" style="max-width: 400px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="region-entry" data-theme="light">
+                <h3 class="region-name">Floresta Proibida (Oeste)</h3>
+                <div class="accordion">
+                    <button class="accordion-header">Itens e Segredos</button>
+                    <div class="accordion-content">
+                        <h4>Perigos:</h4>
+                        <p>Armadilhas de raiz, neblina mágica que confunde o senso de direção.</p>
+                        <h4>Segredos:</h4>
+                        <p>Localização da **Espada da Sombra** (coordenadas 45, 120).</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="region-entry" data-theme="dark">
+                <h3 class="region-name">Ruínas Submersas (Leste)</h3>
+                <div class="accordion">
+                    <button class="accordion-header">Localização e Missões</button>
+                    <div class="accordion-content">
+                        <p>O acesso só é liberado após o pôr do sol. A Missão "O Tesouro Afogado" começa aqui.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+    
+    <script src="../js/script.js"></script> 
+    <script src="../js/mapa.js"></script> 
+</body>
+</html>
