@@ -21,28 +21,37 @@
     </header>
 
     <nav class="side-menu">
-        </nav>
-    
+            </nav>
+
     <main class="map-container">
         
         <div class="map-display">
             <h2>Mapa Principal do Reino</h2>
-            <img src="../imagens/mapa-principal.jpg" alt="Mapa detalhado do reino" class="main-map-image">
+            <img src="../imagens/imagens_mapa/mapa_geral.jpg" alt="Mapa detalhado do reino" class="main-map-image">
         </div>
         
         <section class="region-list">
             <h2>Anotações de Regiões Importantes</h2>
-            
+             
             <div class="region-entry" data-theme="dark">
                 <h3 class="region-name">Montanhas Gélidas (Norte)</h3>
                 <div class="accordion">
                     <button class="accordion-header">Detalhes, Inimigos e Recompensas</button>
                     <div class="accordion-content">
+                        
+                        <div class="map-detail-structure">
+                            <p><strong>Nome do Mapa:</strong> Pico da Coroa Gélida</p>
+                            <p><strong>Ilha/Continente:</strong> Ilha 1 (Norte)</p>
+                            <p><strong>Estética Esperada:</strong> Nevasca, Aurora Boreal, Ambientes Abertos.</p>
+                            <p><strong>Descrição:</strong> Região de alta altitude com ventos cortantes. Necessário equipamento especial de escalada.</p>
+                        </div>
+                        
                         <h4>Inimigos Notáveis:</h4>
                         <p>Lobos da Neve (Comum), Gigantes de Gelo (Raro).</p>
                         <h4>Recursos Úteis:</h4>
                         <p>Minério de Cristal (Alta concentração), Ervas de Resistência ao Gelo.</p>
-                        <img src="../imagens/montanhas-gelidas-detalhe.jpg" alt="Detalhe da entrada da caverna" class="detail-image" style="max-width: 400px;">
+                        
+                        <img src="../imagens/montanhas-gelidas-detalhe.jpg" alt="Detalhe da entrada da caverna" class="region-detail-image">
                     </div>
                 </div>
             </div>
@@ -52,10 +61,19 @@
                 <div class="accordion">
                     <button class="accordion-header">Itens e Segredos</button>
                     <div class="accordion-content">
+
+                        <div class="map-detail-structure">
+                            <p><strong>Nome do Mapa:</strong> Bosque do Sussurro Eterno</p>
+                            <p><strong>Ilha/Continente:</strong> Ilha 2 (Centro-Oeste)</p>
+                            <p><strong>Estética Esperada:</strong> Misticismo, Árvores Antigas, Neblina densa.</p>
+                            <p><strong>Descrição:</strong> Um bioma onde a magia é forte, mas perigosa. Muitos recursos alquímicos podem ser encontrados.</p>
+                        </div>
+
                         <h4>Perigos:</h4>
                         <p>Armadilhas de raiz, neblina mágica que confunde o senso de direção.</p>
                         <h4>Segredos:</h4>
                         <p>Localização da **Espada da Sombra** (coordenadas 45, 120).</p>
+                        <img src="../imagens/floresta-proibida-detalhe.jpg" alt="Detalhe da entrada da floresta" class="region-detail-image">
                     </div>
                 </div>
             </div>
@@ -65,6 +83,12 @@
                 <div class="accordion">
                     <button class="accordion-header">Localização e Missões</button>
                     <div class="accordion-content">
+                        <div class="map-detail-structure">
+                            <p><strong>Nome do Mapa:</strong> Templo Afogado de K'Thul</p>
+                            <p><strong>Ilha/Continente:</strong> Ilha 2 (Sudeste)</p>
+                            <p><strong>Estética Esperada:</strong> Água escura, corais, arquitetura antiga.</p>
+                            <p><strong>Descrição:</strong> Templo afundado há séculos. A pressão da água é extrema, exigindo um feitiço de respiração subaquática.</p>
+                        </div>
                         <p>O acesso só é liberado após o pôr do sol. A Missão "O Tesouro Afogado" começa aqui.</p>
                     </div>
                 </div>
@@ -73,7 +97,7 @@
         </section>
 
     </main>
-    
+
     <script src="../js/script.js"></script> 
     <script src="../js/mapa.js"></script> 
 </body>
