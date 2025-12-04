@@ -18,7 +18,7 @@ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
 /* NOVO: COR DO TÍTULO DO MAPA (H2) */
 .map-display h2 {
-color: #cc0000; /* Vermelho principal para destaque */
+color: #30cc00; /* Vermelho principal para destaque */
 font-size: 2em;
 margin-top: 0;
 margin-bottom: 15px;
@@ -27,7 +27,7 @@ margin-bottom: 15px;
 .main-map-image {
 max-width: 100%;
 height: auto;
-border: 3px solid #cc0000;
+border: 3px solid #30cc00;
 border-radius: 8px;
 margin-top: 15px;
 }
@@ -35,7 +35,7 @@ margin-top: 15px;
 /* --- Lista de Regiões (Tema Alternado) --- */
 .region-list h2 {
 font-size: 2em;
-border-bottom: 2px solid #cc0000;
+border-bottom: 2px solid #30cc00;
 padding-bottom: 10px;
 margin-top: 30px;
 }
@@ -69,7 +69,7 @@ color: #333333;
 .map-detail-structure {
     margin-bottom: 20px;
     padding: 10px;
-    border-left: 4px solid #cc0000; /* Linha de destaque para os dados */
+    border-left: 4px solid #30cc00; /* Linha de destaque para os dados */
     background-color: rgba(204, 0, 0, 0.05); /* Fundo muito sutil */
 }
 .map-detail-structure p {
@@ -88,11 +88,11 @@ color: #333333;
 /* --- Estilo Acordeão (MANTIDO) --- */
 .accordion { margin-top: 15px; }
 .accordion-header {
-width: 100%; text-align: left; background-color: #cc0000; color: white;
+width: 100%; text-align: left; background-color: #30cc00; color: white;
 padding: 12px 18px; border: none; border-radius: 5px; cursor: pointer;
 font-size: 1em; transition: background-color 0.2s; font-weight: bold;
 }
-.accordion-header:hover { background-color: #ff5555; }
+.accordion-header:hover { background-color: #55ff71; }
 .accordion-content {
 max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0.3s;
 background-color: rgba(0, 0, 0, 0.05); padding: 0 18px; border-radius: 0 0 5px 5px;
@@ -110,7 +110,7 @@ max-height: 500px; padding: 18px; padding-top: 10px;
 }
 
 .dark-mode .map-display h2 {
-    color: #ff5555; 
+    color: #55ff71; 
 }
 
 .dark-mode .region-detail-image {
