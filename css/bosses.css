@@ -34,7 +34,7 @@ main.boss-list {
 
 /* Tema CINZA CLARO (data-theme="light") */
 .boss-entry[data-theme="light"] {
-    background-color: #f0f0f0;
+    background-color: #f0f0f09c;
     color: #333333;
 }
 
