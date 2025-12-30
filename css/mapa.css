@@ -61,7 +61,7 @@ color: #e0e0e0;
 
 /* Tema CINZA CLARO (data-theme="light") */
 .region-entry[data-theme="light"] {
-background-color: #f0f0f0;
+background-color: #f0f0f09c;
 color: #333333;
 }
 
@@ -98,9 +98,25 @@ max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out, padding 0
 background-color: rgba(0, 0, 0, 0.05); padding: 0 18px; border-radius: 0 0 5px 5px;
 }
 .accordion-content.active {
-max-height: 500px; padding: 18px; padding-top: 10px;
+    /* Aumentamos para 2000px para garantir que fotos grandes caibam inteiras */
+    max-height: 2000px; 
+    
+    /* Corrigindo os erros de digitação do 'padding-to' e 'hinden' */
+    padding-top: 18px; 
+    padding-bottom: 10px;
+    
+    /* Mudamos para visible quando aberto para não cortar nada */
+    overflow: visible; 
 }
 
+/* Garanta também que a imagem se ajuste à largura do card */
+.region-detail-image {
+    max-width: 100%; /* A foto nunca vai "vazar" para fora do cinza */
+    height: auto;    /* Mantém a proporção correta sem achatar */
+    border-radius: 6px;
+    margin-top: 15px;
+    display: block;
+}
 
 /* --- SUPORTE AO TEMA ESCURO --- */
 
