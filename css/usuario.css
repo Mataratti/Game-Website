@@ -1,0 +1,101 @@
+/* Container Principal */
+.user-container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* Bloco da Foto de Perfil (Inspirado no map-display) */
+.user-display {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-title {
+    color: #cc0000; /* Cor de destaque conforme o mapa */
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.main-user-image {
+    max-width: 250px; /* Tamanho controlado para avatar */
+    height: auto;
+    border: 3px solid #cc0000;
+    border-radius: 50%; /* Deixa a foto redonda se for quadrada */
+    margin-top: 15px;
+}
+
+/* Blocos de Informação Alternados */
+.info-entry {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.info-entry[data-theme="dark"] { background-color: #333333; color: #e0e0e0; }
+.info-entry[data-theme="light"] { background-color: #f0f0f0; color: #333333; }
+
+.detail-structure {
+    border-left: 4px solid #cc0000;
+    padding-left: 15px;
+    background-color: rgba(204, 0, 0, 0.05);
+}
+
+/* Estilo do Acordeão (Repetido para garantir funcionamento) */
+.accordion-header {
+    width: 100%; text-align: left; background-color: #cc0000; color: white;
+    padding: 12px 18px; border: none; border-radius: 5px; cursor: pointer;
+    font-weight: bold; margin-top: 10px;
+}
+
+.accordion-content {
+    max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out;
+}
+
+.accordion-content.active {
+    max-height: 500px; padding: 15px 0;
+}
+
+/* Ajuste para Dark Mode no bloco principal */
+.dark-mode .user-display {
+    background-color: #1f1f1f;
+    color: white;
+}
+/* Cor das classes */
+.cor-cavaleiro {
+    background-color: #0f6fce; /* Azul escuro */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cor-assassino {
+    background-color: rgb(223, 43, 43);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cor-arqueiro {
+    background-color: rgb(4, 187, 4);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.lista-classes {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-classes li {
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
