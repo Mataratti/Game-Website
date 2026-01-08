@@ -18,7 +18,7 @@
 }
 
 .user-title {
-    color: #cc0000; /* Cor de destaque conforme o mapa */
+    color: #000000; /* Cor de destaque conforme o mapa */
     font-size: 2em;
     margin-bottom: 15px;
 }
@@ -67,6 +67,7 @@
     background-color: #1f1f1f;
     color: white;
 }
+
 /* Cor das classes */
 .cor-cavaleiro {
     background-color: #0f6fce; /* Azul escuro */
@@ -89,6 +90,42 @@
     border-radius: 4px;
 }
 
+.cor-mago {
+    background-color: rgb(194, 13, 194);
+    color: white;
+    padding: 2px, 6px;
+    border-radius: 4px;
+}
+
+.cor-berserker {
+    background: rgb(248, 121, 17);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cor-monge {
+    background:rgb(27, 223, 230);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cor-invocador {
+    background: rgb(255, 102, 128);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.cor-bardo {
+    background: rgb(223, 210, 27);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/*---------------------------------------------------------*/
 .lista-classes {
     list-style: none;
     padding: 0;
