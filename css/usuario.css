@@ -137,3 +137,74 @@
     margin: 15px 0;
     font-size: 1.3rem;
 }
+
+/* BARRA DE LEMBRETE */
+
+.aviso-box {
+    background-color: #333332; /* Cinza escuro idêntico ao do print */
+    color: #ffffff;            /* Texto branco */
+    padding: 20px;
+    border-radius: 15px;       /* Cantos bem arredondados */
+    display: flex;             /* Coloca o ícone e o texto lado a lado */
+    align-items: center;       /* Alinha verticalmente no meio */
+    gap: 15px;                 /* Espaço entre a lâmpada e o texto */
+    margin: 20px auto;         /* Centraliza o bloco na página */
+    max-width: 600px;          /* Limita a largura para ficar elegante */
+}
+
+.icone-lampada {
+    font-size: 1.5rem;         /* Tamanho do ícone */
+}
+
+.aviso-box p {
+    margin: 0;                 /* Remove margens extras do parágrafo */
+    font-size: 1.1rem;
+    line-height: 1.5s;          /* Espaçamento entre linhas conforme o print */
+}
+
+.ato-titulo {
+    color: #ffffff;        /* Letra branca */
+    font-size: 3rem;       /* Letra grande para os temas */
+    margin-top: 60px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase; /* Deixa em caixa alta para dar impacto */
+    letter-spacing: 2px;
+    text-align: center;   /* Espaçamento entre letras */
+}
+
+.palavra-meio {
+    text-align: center;
+}
+
+.destaque-verde {
+    background-color: #147c37; /* Verde musgo escuro */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.destaque-azul {
+    background-color: #187ead; /* Verde musgo escuro */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.destaque-amarelo {
+    background-color: #ddda1b; /* Verde musgo escuro */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.destaque-vermelho {
+    background-color: #d61313; /* Verde musgo escuro */
+    color: #ffffff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+}
